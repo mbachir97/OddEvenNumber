@@ -31,11 +31,16 @@ namespace MyConsoleApp
             Console.WriteLine();
 
         }
-        static bool IsEvenNumber(int Numbers)
+        static bool IsEvenNumber(int Numbers)  
             { return Numbers % 2 == 0; }
 
 
-        static bool IsOddNumber(int Numbers) => !IsEvenNumber(Numbers);
+        static bool IsOddNumber(int Numbers)
+        {
+        return 
+
+            !IsEvenNumber(Numbers);
+        }
         
 
     }
